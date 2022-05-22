@@ -35,9 +35,13 @@ app.get('/contact', function (req, res) {
 app.get('/wallet', function (req, res) {
     res.render('./pages/wallet');
 });
+app.get('/invoice', function (req, res) {
+    res.render('./pages/invoice');
+});
+
 
 
 
 app.listen(PORT, function () {
-    console.log('E-HOMES app server running on port: ' + PORT);
+    console.log('E-HOMES-OWNERS app server running on port: ' + PORT);
 });
